@@ -14,8 +14,8 @@
       "execution_id": "pytest_run_07",
       "timestamp": "2025-01-15T17:00:00",
       "build_number": 107,
-      "pass_count": 2,
-      "fail_count": 1,
+      "pass_count": 3,
+      "fail_count": 0,
       "total_runs": 3
     },
     {
@@ -23,8 +23,8 @@
       "execution_id": "pytest_run_07",
       "timestamp": "2025-01-15T17:00:00",
       "build_number": 107,
-      "pass_count": 3,
-      "fail_count": 0,
+      "pass_count": 0,
+      "fail_count": 3,
       "total_runs": 3
     },
     {
@@ -41,8 +41,8 @@
       "execution_id": "pytest_run_07",
       "timestamp": "2025-01-15T17:00:00",
       "build_number": 107,
-      "pass_count": 2,
-      "fail_count": 1,
+      "pass_count": 3,
+      "fail_count": 0,
       "total_runs": 3
     },
     {
@@ -56,13 +56,13 @@
     }
   ],
   "metadata": {
-    "generated_at": "2025-11-29T20:14:26.259919",
+    "generated_at": "2025-11-29T20:58:23.685744",
     "run_number": 7,
     "total_tests": 6,
     "total_runs": 6,
-    "passed": 3,
-    "failed": 3,
-    "total_pass_count": 15,
-    "total_fail_count": 3
+    "passed": 4,
+    "failed": 2,
+    "total_pass_count": 14,
+    "total_fail_count": 4
   }
 }
