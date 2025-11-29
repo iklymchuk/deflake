@@ -1,0 +1,26 @@
+# Flaky Test Detection Configuration
+
+# Data settings
+data:
+  input_path: "data/sample_test_data.csv"
+  format: "csv"  # csv or json
+
+# Detection parameters
+detection:
+  ewma_alpha: 0.3  # Weight for recent failures (0-1)
+  flaky_threshold: 0.1  # EWMA failure rate threshold (0-1)
+  use_ml_model: true  # Use Isolation Forest classifier
+  ml_contamination: 0.1  # Expected proportion of outliers
+
+# Reporting
+reporting:
+  top_n_tests: 5
+  output_formats: ["console", "json", "html"]  # console, json, html, csv
+  output_dir: "output"
+  include_visualizations: true
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "flaky_detector.log"

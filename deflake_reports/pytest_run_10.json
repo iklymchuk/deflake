@@ -1,0 +1,68 @@
+{
+  "test_runs": [
+    {
+      "test_id": "tests/test_login.py::test_valid_credentials",
+      "execution_id": "pytest_run_10",
+      "timestamp": "2025-01-15T20:00:00",
+      "build_number": 110,
+      "pass_count": 3,
+      "fail_count": 0,
+      "total_runs": 3
+    },
+    {
+      "test_id": "tests/test_login.py::test_invalid_credentials",
+      "execution_id": "pytest_run_10",
+      "timestamp": "2025-01-15T20:00:00",
+      "build_number": 110,
+      "pass_count": 3,
+      "fail_count": 0,
+      "total_runs": 3
+    },
+    {
+      "test_id": "tests/test_api.py::test_get_users",
+      "execution_id": "pytest_run_10",
+      "timestamp": "2025-01-15T20:00:00",
+      "build_number": 110,
+      "pass_count": 1,
+      "fail_count": 2,
+      "total_runs": 3
+    },
+    {
+      "test_id": "tests/test_api.py::test_create_user",
+      "execution_id": "pytest_run_10",
+      "timestamp": "2025-01-15T20:00:00",
+      "build_number": 110,
+      "pass_count": 3,
+      "fail_count": 0,
+      "total_runs": 3
+    },
+    {
+      "test_id": "tests/test_api.py::test_delete_user",
+      "execution_id": "pytest_run_10",
+      "timestamp": "2025-01-15T20:00:00",
+      "build_number": 110,
+      "pass_count": 2,
+      "fail_count": 1,
+      "total_runs": 3
+    },
+    {
+      "test_id": "tests/test_ui.py::test_homepage_load",
+      "execution_id": "pytest_run_10",
+      "timestamp": "2025-01-15T20:00:00",
+      "build_number": 110,
+      "pass_count": 3,
+      "fail_count": 0,
+      "total_runs": 3
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-11-29T20:14:26.260278",
+    "run_number": 10,
+    "total_tests": 6,
+    "total_runs": 6,
+    "passed": 4,
+    "failed": 2,
+    "total_pass_count": 15,
+    "total_fail_count": 3
+  }
+}
