@@ -5,8 +5,8 @@
       "execution_id": "pytest_run_08",
       "timestamp": "2025-01-15T18:00:00",
       "build_number": 108,
-      "pass_count": 0,
-      "fail_count": 3,
+      "pass_count": 3,
+      "fail_count": 0,
       "total_runs": 3
     },
     {
@@ -23,8 +23,8 @@
       "execution_id": "pytest_run_08",
       "timestamp": "2025-01-15T18:00:00",
       "build_number": 108,
-      "pass_count": 1,
-      "fail_count": 2,
+      "pass_count": 2,
+      "fail_count": 1,
       "total_runs": 3
     },
     {
@@ -56,13 +56,13 @@
     }
   ],
   "metadata": {
-    "generated_at": "2025-11-29T20:14:26.260037",
+    "generated_at": "2025-11-29T20:58:23.685868",
     "run_number": 8,
     "total_tests": 6,
     "total_runs": 6,
-    "passed": 4,
-    "failed": 2,
-    "total_pass_count": 13,
-    "total_fail_count": 5
+    "passed": 5,
+    "failed": 1,
+    "total_pass_count": 17,
+    "total_fail_count": 1
   }
 }
